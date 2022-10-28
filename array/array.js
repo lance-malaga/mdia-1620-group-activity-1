@@ -10,3 +10,9 @@
  * Using single line comments write what the output would display.
  */
 
+ var electronics = ["mouse", "keyboard", "monitor"];
+
+ electronics.map((x, index) => {console.log(" The items is a " + x + ". Then the index is " + index + ". " )});
+ // The items is a mouse. Then the index is 0. 
+ // The items is a keyboard. Then the index is 1.
+ // The items is a monitor. Then the index is 2.
